@@ -296,7 +296,8 @@ export const Join = () => {
                     <PlusCircle size={16} className="mr-2" />
                   )}
                   <span>{isCreating ? "Creating..." : "Create new room"}</span>
-                </motion.button> */}
+                </motion.button> 
+                */}
             </div>
           </form>
 

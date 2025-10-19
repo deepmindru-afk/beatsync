@@ -23,15 +23,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Beatsync",
+  title: "portal music",
   description:
-    "Turn every device into a synchronized speaker. Beatsync is an open-source music player for multi-device audio playback. Host a listening party today!",
+    "Turn every device into a synchronized speaker.",
   keywords: ["music", "sync", "audio", "collaboration", "real-time"],
-  authors: [{ name: "Freeman Jiang" }],
+  authors: [{ name: "V" }],
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Beatsync",
+    title: "portal",
   },
 };
 

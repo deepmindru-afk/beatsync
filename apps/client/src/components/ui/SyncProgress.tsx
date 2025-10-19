@@ -253,7 +253,7 @@ export const SyncProgress = ({
               rel="noopener noreferrer"
               className="text-primary/75 underline"
             >
-              Discord
+              D
             </a>
             .
           </motion.p>
@@ -414,7 +414,7 @@ export const SyncProgress = ({
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3, delay: 0.1 }}
         >
-          Beatsync calibrating
+          calibrating
         </motion.h2>
 
         <motion.p

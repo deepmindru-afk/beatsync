@@ -5,7 +5,7 @@ import {
   InputOTPGroup,
   InputOTPSlot,
 } from "@/components/ui/input-otp";
-import { SOCIAL_LINKS } from "@/constants";
+//import { SOCIAL_LINKS } from "@/constants";
 import { fetchActiveRooms } from "@/lib/api";
 import { generateName } from "@/lib/randomNames";
 import { validateFullRoomId, validatePartialRoomId } from "@/lib/room";
@@ -16,7 +16,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
-import { FaDiscord, FaGithub } from "react-icons/fa";
+//import { FaDiscord, FaGithub } from "react-icons/fa";
 import { toast } from "sonner";
 import { ActiveRooms } from "./ActiveRooms";
 import { AnnouncementBanner } from "./AnnouncementBanner";
@@ -318,6 +318,7 @@ export const Join = () => {
           />
 
           {/* Social links */}
+          {/*
           <motion.div
             className="flex items-center gap-4"
             initial={{ opacity: 0 }}
@@ -344,7 +345,7 @@ export const Join = () => {
               <span>GitHub</span>
             </a>
           </motion.div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Active Rooms Section */}
         <ActiveRooms />

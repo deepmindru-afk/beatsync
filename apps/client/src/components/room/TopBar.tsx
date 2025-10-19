@@ -1,5 +1,5 @@
 "use client";
-import { SOCIAL_LINKS } from "@/constants";
+//import { SOCIAL_LINKS } from "@/constants";
 import { MAX_NTP_MEASUREMENTS, useGlobalStore } from "@/store/global";
 import { Crown, Hash, Users } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";

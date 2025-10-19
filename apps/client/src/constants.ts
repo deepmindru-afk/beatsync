@@ -1,4 +1,4 @@
 export const SOCIAL_LINKS = {
-  discord: "https://discord.beatsync.gg",
-  github: "https://github.com/freeman-jiang/beatsync",
+  discord: "https://www.portalos.ru",
+  github: "https://www.portalos.ru",
 } as const;
